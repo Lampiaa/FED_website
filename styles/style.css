@@ -64,15 +64,13 @@
   }
 
   article {
-	display: inline-block;
-	margin-right: 1em;
-	margin-left: 0.5em;
+	display: inline-grid;
 
-  }
-  
-  article > article {
-	display: block;
-	max-width: 10em;
+	margin: auto;
+	padding: auto;
+	max-width: 100%;
+	height: auto;
+
   }
 
   ul {
