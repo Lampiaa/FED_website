@@ -63,6 +63,7 @@
 	margin-left: 0.5em;
   }
 
+<<<<<<< HEAD
   article {
 	display: inline-grid;
 
@@ -71,6 +72,25 @@
 	max-width: 100%;
 	height: auto;
 
+=======
+  section > article {
+	display: flex;
+	margin-right: 1em;
+	margin-left: 0.5em;
+	width: 50vh;
+  }
+  
+article > a {
+	display: block;
+	width: 100%;
+	margin: auto;
+}
+
+  article > article {
+	display: flex;
+	flex-direction: row;
+	max-width: 10em;
+>>>>>>> 4b1e6f68faccd479e83cb156a789d791689a702f
   }
 
   ul {
@@ -97,14 +117,14 @@
   }
 
   
-.thumbnail {
+div {
 	padding: 0;
 	background: #000;
 	width: 100%;
 	height: 100%;
 }
 
-.thumbnail img {
+div > img {
 	display: block;
 	max-height: 100%;
 	max-width: 100%;
@@ -112,7 +132,7 @@
 	
 }  
 
-.product {
+#details img:first-of-type {
 	  max-width: 100%;
 	  height: auto;
   }
