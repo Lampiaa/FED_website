@@ -19,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lam Nguyen
 
   #### Je startniveau:
-  Rood? de middelste
+  blauw/rood (meer blauw denk ik)
 
   #### Je focus:
   Responsive
@@ -36,8 +36,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://www.uniqlo.com/nl/en/spl/ut/the-sake-collection
-  https://www.uniqlo.com/nl/en/products/E477043-000/00?colorDisplayCode=09&sizeDisplayCode=004
+  https://www.uniqlo.com/nl/en/spl/ut/pop-mart-labubu
+  https://www.uniqlo.com/nl/en/products/E481097-000/00?colorDisplayCode=11&sizeDisplayCode=003
   
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
