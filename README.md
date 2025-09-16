@@ -36,17 +36,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://www.uniqlo.com/nl/en/spl/ut/the-sake-collection
-  https://www.uniqlo.com/nl/en/products/E477043-000/00?colorDisplayCode=09&sizeDisplayCode=004
-  
+  https://www.uniqlo.com/nl/en/spl/ut/pop-mart-labubu
+  https://www.uniqlo.com/nl/en/products/E481097-000/00?colorDisplayCode=11&sizeDisplayCode=003  
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
-
+  <img src="readme-images/Productpagina1.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/Productpagina2.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/Productpagina3.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/Footer.png" width="375px" alt="omschrijving van de pagina">
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
- 
+  <img src="readme-images/Detailpagina1.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/Detailpagina2.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/Detailpagina3.png" width="375px" alt="omschrijving van de pagina">
+
 </details>
 
 
@@ -69,7 +72,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Uniqlo_POPMART_Pagina.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
