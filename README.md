@@ -19,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lam Nguyen
 
   #### Je startniveau:
-  Rood? de middelste
+  blauw/rood (meer blauw denk ik)
 
   #### Je focus:
   Responsive
