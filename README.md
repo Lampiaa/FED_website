@@ -61,6 +61,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  - Geen H1?
+  - Headings heten bijna allemaal hetzelfde voor de producten
+  - Geen gedetailleerde alt teksten voor images
+  - Heading namen van producten zijn de volledige beschrijving
+  - Volgorde van screenreader navigeren met tab is verwarrend
+  - screenreader springt tussen heading levels
+
+  - w3c validator: 6 errors, 6 warnings, 4 info messages
+
+  - Gebruikt alleen maar divs met classes en id
+  - images hebben alt tekst maar geen goede beschrijving, elk tshirt heeft als alt tekst tshirt
+  - alt tekst van de promotie foto is wel goed
+  - geen dark mode
+
+  - contrast is AAA, alles is zwart op wit
 
 </details>
 
