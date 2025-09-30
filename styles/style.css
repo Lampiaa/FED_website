@@ -45,6 +45,6 @@ list-style-type: none;
 display: grid;
 column-gap: 1em;
 row-gap: 2em;
-grid-template-columns: 1fr max-content;
+grid-template-columns: 1fr 1fr 1fr max-content;
 }
 
