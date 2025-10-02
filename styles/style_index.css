@@ -25,16 +25,18 @@ p:first-of-type{
 }
 
 
-section > img{
-    width: 1fr;
+section img{
+    max-width: max-content;
     margin-right: 1rem;
+    
 }
 
 
-section ul:first-of-type, ul:nth-of-type(2){
+section ul{
 list-style-type: none;
 display: grid;
 column-gap: 1em;
 row-gap: 2em;
-grid-template-columns: 1fr 1fr 1fr max-content;
+grid-template-columns: 1fr 1fr;
+font-size: 0.75em;
 }
