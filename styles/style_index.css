@@ -18,25 +18,32 @@ section:first-of-type :last-child{
     padding: 1em;
 }
 
-p:first-of-type{
+main p:first-of-type{
     color: black;
     font-size: 1.1em;
     align-items: center;
 }
 
 
-section img{
+section > img{
     max-width: max-content;
     margin-right: 1rem;
-    
 }
 
-
 section ul{
-list-style-type: none;
-display: grid;
-column-gap: 1em;
-row-gap: 2em;
-grid-template-columns: 1fr 1fr;
-font-size: 0.75em;
+    list-style-type: none;
+    display: grid;
+    column-gap: 0;
+    row-gap: 2em;
+    grid-template-columns: 1fr 1fr;
+    font-size: 0.75em;
+}
+
+section ul li{
+    border: 1px solid grey;
+}
+
+section ul li img{
+    margin: 0;
+    max-width: 45vw;
 }
