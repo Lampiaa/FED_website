@@ -1,0 +1,40 @@
+section{
+    margin-top: 3rem;
+}
+
+section:first-of-type{
+    display: flex;
+    flex-direction: column;
+}
+
+section:first-of-type > * {
+    margin-bottom: 1rem;
+}
+
+section:first-of-type :last-child{
+    align-self: center;
+    border: solid 0.1em black;
+    border-radius: 2em;
+    padding: 1em;
+}
+
+p:first-of-type{
+    color: black;
+    font-size: 1.1em;
+    align-items: center;
+}
+
+
+section > img{
+    width: 1fr;
+    margin-right: 1rem;
+}
+
+
+section ul:first-of-type, ul:nth-of-type(2){
+list-style-type: none;
+display: grid;
+column-gap: 1em;
+row-gap: 2em;
+grid-template-columns: 1fr 1fr 1fr max-content;
+}
