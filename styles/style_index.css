@@ -1,7 +1,14 @@
-section{
-    margin-top: 3rem;
+main nav{
+    font-size: 0.7em;
 }
 
+section{
+    margin-top: 2rem;
+}
+
+section h2{
+    margin-bottom: 0.5em;
+}
 section:first-of-type{
     display: flex;
     flex-direction: column;
@@ -15,13 +22,17 @@ section:first-of-type :last-child{
     align-self: center;
     border: solid 0.1em black;
     border-radius: 2em;
+    margin-top: 2em;
     padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    width: 90vw;
 }
 
 main p:first-of-type{
+    align-items: center;
     color: black;
     font-size: 1.1em;
-    align-items: center;
 }
 
 
@@ -31,17 +42,18 @@ section > img{
 }
 
 section ul{
-    list-style-type: none;
+    /* column-gap: 0.2em; */
     display: grid;
-    column-gap: 0;
-    row-gap: 2em;
-    grid-template-columns: 1fr 1fr;
     font-size: 0.75em;
+    gap: 0.5em;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
     margin-right: 1rem;
+    /* row-gap: 2em; */
 }
 
 section ul li{
-    /* border: 1px solid grey; */
+    border: 0.5px solid rgb(184, 184, 184);
     margin: auto;
 }
 
@@ -49,5 +61,4 @@ section ul li img{
     margin: 0;
     max-width: 100%;
     object-fit: cover;
-    border: 1px solid grey;
 }

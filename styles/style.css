@@ -33,8 +33,9 @@
   /* jouw code */
 
 *{
-	padding: 0;
+  font-weight: normal;
   margin: 0;
+	padding: 0;
 	scrollbar-width: none;
 }
 
@@ -54,6 +55,11 @@ nav{
   margin-bottom: 2rem;
 }
 
+header nav ul li > svg:first-child{
+  margin-left: 1em;
+  margin-top: 0.5em;
+  width: 3.9em;
+}
 
 /* ////////////// */
 /* Hamburger menu */
@@ -61,28 +67,24 @@ nav{
 
 button{
   appearance: none;
-  font-size: 1em;
-  width: 3em;
   aspect-ratio:1;
-  
+  align-content:center;
   border:none;
   background-color:white;
-  
   display:grid;
+  font-size: 0.8em;
   justify-content:center;
-  align-content:center;
+  width: 3em;
 }
 
 button span{
-  display:block;
-  width:1.5em;
-  height:.2em;
   background-color:black;
-  border-radius: .1em;
-  
+  display:block;
   grid-column-start:1;
   grid-row-start:1;
-  transition:1s;
+  height:.115em;
+  transition:1s; 
+  width:1.5em;
 }
 
 button span:nth-of-type(1){
@@ -98,8 +100,8 @@ button span:nth-of-type(3){
 }
 
 button.is-open span:nth-of-type(1){
-  translate: 0 0 0;
   rotate: 45deg;
+  translate: 0 0 0;
 }
 
 button.is-open span:nth-of-type(2){
@@ -107,8 +109,8 @@ button.is-open span:nth-of-type(2){
 }
 
 button.is-open span:nth-of-type(3){
-  translate: 0 0 0;
   rotate: -45deg;
+  translate: 0 0 0;
 }
 
 /* //////////////////////////////////// */
@@ -116,19 +118,19 @@ button.is-open span:nth-of-type(3){
 
 
 header{
+  background-color: #ffffff;
   position: sticky;
   top: 0;
-  z-index: 100;
-  background-color: #ffffff;
   width: 100vw;
+  z-index: 100;
 }
 
 header nav ul {
+  align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
   gap: 1rem;
+  justify-content: flex-end;
   margin-right: 1rem;
 }
 
@@ -138,8 +140,8 @@ header nav ul li:first-child{
 }
 
 [aria-current="page"]{
-  text-decoration: none;
   cursor: default;
+  text-decoration: none;
 }
 
 
@@ -166,8 +168,8 @@ footer *{
 
 footer > p{
   color: rgb(241, 44, 44);
-  padding-top: 0.5rem;
   margin-left: 1rem;
+  padding-top: 0.5rem;
 }
 
 footer > a{
