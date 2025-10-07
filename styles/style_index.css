@@ -41,7 +41,7 @@ section ul{
 }
 
 section ul li{
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     margin: auto;
 }
 
@@ -49,5 +49,5 @@ section ul li img{
     margin: 0;
     max-width: 100%;
     object-fit: cover;
-    /* border: 1px solid grey; */
+    border: 1px solid grey;
 }
