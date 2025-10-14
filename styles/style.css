@@ -8,17 +8,21 @@
   
   
   
-  
-  
-  
   /*********************/
   /* CUSTOM PROPERTIES */
   /*********************/
   :root {
 	  /* startje */
-	  --color-text:#111;
-	  --color-background:#eee;
+	  --color-text:#000000;
+	  --color-background:#ffffff;
 	  max-width: 1200px;
+
+    --links_color:#000000;
+    --svg_color:#000000;
+    --text_alert:rgb(241, 44, 44);
+    --footer_bgc:rgb(224, 223, 223);
+    --border_color:#000000;
+    --mini_text:#939393;
 	  /* margin: auto; */
   }
   
@@ -36,15 +40,15 @@
   font-weight: normal;
   margin: 0;
 	padding: 0;
-	scrollbar-width: none;
 }
 
 main{
   margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 a{
-  color: black;
+  color: var(--links_color);
 }
 
 ul{
@@ -70,7 +74,7 @@ button{
   aspect-ratio:1;
   align-content:center;
   border:none;
-  background-color:white;
+  background-color:var(--color-background);
   display:grid;
   font-size: 0.8em;
   justify-content:center;
@@ -78,7 +82,7 @@ button{
 }
 
 button span{
-  background-color:black;
+  background-color:var(--links_color);
   display:block;
   grid-column-start:1;
   grid-row-start:1;
@@ -118,7 +122,7 @@ button.is-open span:nth-of-type(3){
 
 
 header{
-  background-color: #ffffff;
+  background-color: var(--color-background);
   position: sticky;
   top: 0;
   width: 100vw;
@@ -150,13 +154,13 @@ header nav ul li:first-child{
 /* ////////////////// */
 
 footer{
-  background-color: rgb(224, 223, 223);
+  background-color: var(--footer_bgc);
   width: 100vw;
 }
 
-footer button{
+/* footer button{
   background-color: rgb(224, 223, 223);
-}
+} */
 
 footer *{
   display: flex;
@@ -167,7 +171,7 @@ footer *{
 }
 
 footer > p{
-  color: rgb(241, 44, 44);
+  color: var(--text_alert);
   margin-left: 1rem;
   padding-top: 0.5rem;
 }

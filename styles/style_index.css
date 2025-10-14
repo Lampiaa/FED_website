@@ -20,7 +20,7 @@ section:first-of-type > * {
 
 section:first-of-type :last-child{
     align-self: center;
-    border: solid 0.1em black;
+    border: solid 0.1em var(--border_color);
     border-radius: 2em;
     margin-top: 2em;
     padding: 1em;
@@ -29,16 +29,17 @@ section:first-of-type :last-child{
     width: 90vw;
 }
 
-main p:first-of-type{
-    align-items: center;
-    color: black;
-    font-size: 1.1em;
+main a:last-child img{
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
 }
 
 
 section > img{
     max-width: max-content;
-    margin-right: 1rem;
 }
 
 section ul{
@@ -48,17 +49,45 @@ section ul{
     gap: 0.5em;
     grid-template-columns: 1fr 1fr;
     list-style-type: none;
-    margin-right: 1rem;
     /* row-gap: 2em; */
 }
 
 section ul li{
-    border: 0.5px solid rgb(184, 184, 184);
+    border: 0.5px solid var(--border_color);
     margin: auto;
+    display: grid;
+    grid-template-rows: 3fr max-content max-content max-content;
+    grid-template-columns: 1fr;
 }
 
 section ul li img{
     margin: 0;
     max-width: 100%;
     object-fit: cover;
+    grid-column-start: 1;
+    grid-column-end: end;
+}
+
+section ul li button{
+    grid-row-start: 2;
+    grid-column-start: 2;
+    justify-self: right;
+
+}
+
+section ul li h3{
+    grid-row-start: 3;
+}
+
+section ul li p:first-of-type{
+    grid-row-start: 4;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+section ul li p:last-of-type{
+    grid-row-start: 2;
+    grid-column-start: 1;
+    align-self: end;
+    color: var(--mini_text);
 }
