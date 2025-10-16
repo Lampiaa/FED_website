@@ -29,6 +29,25 @@ section:first-of-type :last-child{
     width: 90vw;
 }
 
+/* main a:nth-last-child(2), a:nth-last-child(3){
+    border: solid 0.1em var(--border_color);
+    font-size: 1.2em;
+} */
+
+main section:last-of-type{
+    display: flex;
+    justify-content: center;
+}
+
+main section:last-of-type a{
+    border: solid 0.05em var(--border_color_light);
+    font-size: 1em; 
+    padding: 1em;
+    width: 90vw;
+    text-align: center;
+    text-decoration: none;
+}
+
 main a:last-child img{
     max-width: 80%;
     display: block;
@@ -100,7 +119,10 @@ section ul li p:last-of-type{
     grid-template-columns: 1fr 1fr 1fr;
     list-style-type: none;
     /* row-gap: 2em; */
-    }  
+    } 
+    main section:last-of-type a{
+        margin: 0.3em;
+    } 
 }
 
 @media only screen and (min-width: 800px){
@@ -119,6 +141,9 @@ section ul li p:last-of-type{
         align-self: center;
         content:url("/images/We_Are_The_Monsters_Large.jpg");
     }
+    main section:last-of-type a{
+        margin: 0.3em;
+    } 
 }
 
 
