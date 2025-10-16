@@ -29,6 +29,7 @@ section:first-of-type :last-child{
     width: 90vw;
 }
 
+/* als section om de a niet mag */
 /* main a:nth-last-child(2), a:nth-last-child(3){
     border: solid 0.1em var(--border_color);
     font-size: 1.2em;
@@ -56,7 +57,6 @@ main a:last-child img{
     margin-bottom: 1rem;
 }
 
-
 section > img{
     max-width: max-content;
 }
@@ -70,7 +70,6 @@ section ul{
 }
 
 section ul li{
-    /* border: 0.5px solid var(--border_color); */
     margin: auto;
     display: grid;
     grid-template-rows: 3fr max-content max-content max-content;
@@ -94,6 +93,7 @@ section ul li button{
 
 section ul li h3{
     grid-row-start: 3;
+    /* height: 2em; */
 }
 
 section ul li p:first-of-type{
@@ -112,13 +112,11 @@ section ul li p:last-of-type{
 
 @media only screen and (min-width: 650px) and (max-width: 800px){
   section ul{
-    /* column-gap: 0.2em; */
     display: grid;
     font-size: 0.75em;
     gap: 0.5em;
     grid-template-columns: 1fr 1fr 1fr;
     list-style-type: none;
-    /* row-gap: 2em; */
     } 
     main section:last-of-type a{
         margin: 0.3em;
@@ -127,13 +125,11 @@ section ul li p:last-of-type{
 
 @media only screen and (min-width: 800px){
     section ul{
-    /* column-gap: 0.2em; */
-    display: grid;
-    font-size: 0.75em;
-    gap: 1em;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    list-style-type: none;
-    /* row-gap: 2em; */
+        display: grid;
+        font-size: 0.75em;
+        gap: 1em;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        list-style-type: none;
     }  
     section > img{
         max-width: 80%;

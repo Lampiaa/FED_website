@@ -159,10 +159,6 @@ footer{
   width: 100vw;
 }
 
-/* footer button{
-  background-color: rgb(224, 223, 223);
-} */
-
 footer *{
   display: flex;
   flex-direction: column;
@@ -179,6 +175,8 @@ footer > p{
 
 footer > a{
   margin-left: 1rem;
+  height: 2.5em;
+  justify-self: flex-end;
 }
 
 /* footer > p:first-child, p:nth-child(3){
