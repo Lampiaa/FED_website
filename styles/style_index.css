@@ -91,3 +91,34 @@ section ul li p:last-of-type{
     align-self: end;
     color: var(--mini_text);
 }
+
+
+@media only screen and (min-width: 650px) and (max-width: 800px){
+  section ul{
+    /* column-gap: 0.2em; */
+    display: grid;
+    font-size: 0.75em;
+    gap: 0.5em;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    /* row-gap: 2em; */
+    }  
+}
+
+@media only screen and (min-width: 800px){
+    section ul{
+    /* column-gap: 0.2em; */
+    display: grid;
+    font-size: 0.75em;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    /* row-gap: 2em; */
+    }  
+    section > img{
+        max-width: 80%;
+        display: block;
+        align-self: center;
+        content:url("/images/We_Are_The_Monsters_Large.jpg");
+    }
+}
