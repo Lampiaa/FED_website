@@ -44,8 +44,8 @@
 }
 
 main{
-  margin-left: 1rem;
-  margin-right: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 a{
@@ -126,7 +126,7 @@ header{
   background-color: var(--color-background);
   position: sticky;
   top: 0;
-  width: 100vw;
+  width: 100%;
   z-index: 100;
 }
 
@@ -156,31 +156,30 @@ header nav ul li:first-child{
 
 footer{
   background-color: var(--footer_bgc);
-  width: 100vw;
+  width: 100%;
 }
 
-footer *{
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 0.5rem;
-  margin-left: 0.5rem;
-  text-decoration: none;
+footer > ul{
+  display: grid;
+  grid-template-rows: max-content max-content max-content max-content max-content max-content;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
 }
 
-footer > p{
+footer > ul > li > p{
   color: var(--text_alert);
-  margin-left: 1rem;
-  padding-top: 0.5rem;
+  padding-left: 1rem;
+  padding-top: 1em;
 }
 
-footer > a{
-  margin-left: 1rem;
+footer ul li:nth-last-child(2) p:last-child{
+  color: var(--color-text);
+}
+
+footer  a{
+  padding-left: 2em;
+}
+
+footer svg{
   height: 2.5em;
-  justify-self: flex-end;
 }
-
-/* footer > p:first-child, p:nth-child(3){
-  color: rgb(241, 44, 44);
-  padding-top: 0.5rem;
-  margin-left: 1rem;
-} */

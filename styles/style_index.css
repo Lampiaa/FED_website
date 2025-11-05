@@ -57,10 +57,6 @@ main a:last-child img{
     margin-bottom: 1rem;
 }
 
-section > img{
-    max-width: max-content;
-}
-
 section ul{
     display: grid;
     font-size: 0.75em;
@@ -70,11 +66,9 @@ section ul{
 }
 
 section ul li{
-    margin: auto;
     display: grid;
-    grid-template-rows: 3fr max-content max-content max-content;
-    grid-template-columns: 1fr;
-    margin-bottom: 1.5rem;
+    grid-template-rows: max-content max-content 1fr max-content;
+    grid-template-columns: auto min-content;
 }
 
 section ul li img{
@@ -86,14 +80,12 @@ section ul li img{
 
 section ul li button{
     grid-row-start: 2;
-    grid-column-start: 2;
+    grid-column-start: 3;
     justify-self: right;
-
 }
 
 section ul li h3{
     grid-row-start: 3;
-    /* height: 2em; */
 }
 
 section ul li p:first-of-type{
@@ -102,11 +94,28 @@ section ul li p:first-of-type{
     font-size: 1.5em;
 }
 
-section ul li p:last-of-type{
+/* alleen li met reduced price hebben een last of type 4 */
+section ul li p:nth-last-of-type(4){
+    color: var(--text_alert);
+}
+
+section ul li p:nth-of-type(2){
     grid-row-start: 2;
     grid-column-start: 1;
     align-self: end;
     color: var(--mini_text);
+}
+
+section ul li p:nth-of-type(3){
+    grid-row-start: 5;
+    grid-column-start: 1;
+}
+
+section ul li p:nth-of-type(4){
+    grid-row-start: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    color: var(--text_alert);
 }
 
 
@@ -114,7 +123,7 @@ section ul li p:last-of-type{
   section ul{
     display: grid;
     font-size: 0.75em;
-    gap: 0.5em;
+    gap: 1em 0.5em;
     grid-template-columns: 1fr 1fr 1fr;
     list-style-type: none;
     } 
@@ -127,7 +136,7 @@ section ul li p:last-of-type{
     section ul{
         display: grid;
         font-size: 0.75em;
-        gap: 1em;
+        gap: 1em 0.5em;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         list-style-type: none;
     }  
