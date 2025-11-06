@@ -68,6 +68,12 @@ header nav ul li > svg:first-child{
   width: 3.9em;
 }
 
+button{
+  appearance: none;
+  border: none;
+  background-color: var(--color-background);
+}
+
 /* ////////////// */
 /* Hamburger menu */
 /* ////////////// */
@@ -181,13 +187,18 @@ footer ul li:nth-last-child(2) p:last-child{
   margin-top: 1em;
 }
 
+footer ul li:last-child ul{
+  display: flex;
+}
+
 footer li > a{
-  margin-left: 2em;
+  padding-left: 2em;
   padding-top: 0.5em;  
 }
 
 footer svg{
   height: 2em;
+  width: 2em;
 }
 
 @media screen and (min-width: 720px){
