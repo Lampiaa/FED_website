@@ -1,4 +1,10 @@
-section:has(h1) ul{
+/* ////////////////////////*/
+/* //// image carousel ////*/
+/* ////////////////////////*/
+
+/* https://www.youtube.com/watch?v=gmI5nvzv170 */
+
+main > section:first-of-type ul{
     display: flex;
     width: 100%;
     overflow-x: auto;
@@ -7,11 +13,11 @@ section:has(h1) ul{
     scroll-snap-type: x mandatory;
 }
 
-section:has(h1) ul::-webkit-scrollbar{
+main > section:first-of-type ul::-webkit-scrollbar{
     display: none;
 }
 
-section:has(h1) ul::scroll-button(right), section:has(h1) ul::scroll-button(left){
+main > section:first-of-type ul::scroll-button(right), main > section:first-of-type ul::scroll-button(left){
     content: '→';
     color: var(--button_text);
     font-size: 1em;
@@ -27,22 +33,52 @@ section:has(h1) ul::scroll-button(right), section:has(h1) ul::scroll-button(left
     translate: -100%;
 }
 
-section:has(h1) ul::scroll-button(left){
+main > section:first-of-type ul::scroll-button(left){
     content: '←';
     position-area: left center;
     translate: 100%;
 
 }
 
-section:has(h1) ul::scroll-button(right):disabled, ul::scroll-button(left):disabled{
+main > section:first-of-type ul::scroll-button(right):disabled, ul::scroll-button(left):disabled{
     opacity: 0.5;
 }
 
-section:has(h1) ul li{
+main > section:first-of-type ul li{
     scroll-snap-align: start;
     flex: 0 0 100%;
 }
 
-section:has(h1) ul li img{
+main > section:first-of-type ul li img{
     width: 100%;
 }
+
+
+/* ////////////////////////*/
+/* /////// details ////////*/
+/* ////////////////////////*/
+
+details {
+  border-block-end: 1px solid #000;
+  margin-block: .5rem;
+  padding-block: .5rem;
+}
+summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+summary::after {
+  content: "+";
+}
+
+[open] summary::after{
+    content: "-";
+}
+
+[open] summary{
+    font-weight: bold;
+}
+
