@@ -182,8 +182,8 @@ footer > ul{
 
 footer > ul > li > p{
   color: var(--text_alert);
-  padding-left: 1rem;
   padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 footer ul li:nth-last-child(2) p:last-child{
@@ -195,6 +195,7 @@ footer ul li:nth-last-child(2) p:last-child{
 footer ul li:last-child ul{
   display: flex;
   gap: 1em;
+  padding-bottom: 1em;
 }
 
 footer > ul > li:not(:last-child) a{
