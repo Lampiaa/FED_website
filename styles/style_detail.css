@@ -56,12 +56,14 @@ main > section:first-of-type ul li img{
 /* ////////////////////////*/
 /* ///////// form /////////*/
 /* ////////////////////////*/
-
+form{
+    margin-bottom: 1em;
+}
 
 form > fieldset:first-of-type {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5em;
+    gap: 0.7em;
 }
 
 form > fieldset:first-of-type input{
@@ -81,30 +83,90 @@ form > fieldset:first-of-type label {
     border: 1px solid var(--border_color);
     cursor: pointer;
     margin-top: 0.5em;
-    margin-bottom: 1em;
 }
 
 form > fieldset:first-of-type input:checked + label{
     background-color: var(--radio_bg);
     border: 1px solid var(--border_color);
-    color: white;
+    color: var(--radio_selected);
     outline: 2px solid var(--border_color);
     outline-offset: 2px;
 }
 
 form > fieldset:first-of-type label:hover {
-
     outline: 1px solid var(--border_color);
     outline-offset: 2px;
+}
+
+/* //////////// section teller cart ////////////*/
+form > section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1em;
+    align-items: center;
+}
+
+
+/* //////////// teller knop ////////////*/
+form > section > fieldset{
+    display: flex;
+    gap: 0.5em;
+    font-size: 1.2em;
+    border: 1px solid var(--border_color);
+    width: max-content;
+    height: max-content;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    border-radius: 40px;
+    background-color: var(--counter_bg);
+    align-items: center;
+    justify-content: start;
+}
+
+form > section > fieldset > button{
+    font-size: 1.5em;
+    background-color: var(--counter_bg);
+}
+
+/* //////////// cart ////////////*/
+form > section > button{
+    background-color: var(--cart_bg);
+    color: var(--button_text);
+    border-radius: 60px;
+    padding: 0.7em 1.7em 0.7em 1.7em;
+    font-size: 1.3em;
+}
+
+/* //////////// fav ////////////*/
+form > button:last-of-type{
+    width: 100%;
+    border: 1px solid var(--border_color);
+    border-radius: 60px;
+    font-size: 1em;
+    padding: 0.3em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+form > button:last-of-type.added{
+    background-color: var(--radio_bg);
+    color: var(--radio_selected);
+}
+
+/* ////////// price /////////// */
+form > p:first-of-type{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 1em 0 1em 0;
 }
 
 
 /* ////////////////////////*/
 /* /////// details ////////*/
 /* ////////////////////////*/
-
 details {
-  border-block-end: 1px solid #000;
+  border-block-end: 1px solid var(--border_color);
   margin-block: .5rem;
   padding-block: .5rem;
 }
@@ -127,3 +189,56 @@ summary::after {
     font-weight: bold;
 }
 
+
+
+
+@media (min-width: 700px) {
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 30%; /* left side flexible, form fixed width */
+        gap: 2rem;
+        align-items: start;
+    }
+
+    main > section:first-of-type {
+        grid-column: 1 / 2;
+    }
+
+    main > section:last-of-type {
+        grid-column: 1 / 2;
+    }
+
+    form {
+        grid-column: 2 / 3;
+        position: sticky;
+        top: 4rem; 
+    }
+
+    main > section:first-of-type ul{
+        display: block;
+    }
+
+    main > section:first-of-type ul::scroll-button(right), main > section:first-of-type ul::scroll-button(left){
+    display: none;
+    }
+
+}
+
+@media (min-width: 1000px) {
+    main > section:first-of-type ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main > section:first-of-type ul li {
+        flex: none;
+        scroll-snap-align: none;
+    }
+
+    main > section:first-of-type ul li img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}

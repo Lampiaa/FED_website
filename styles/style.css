@@ -15,7 +15,7 @@
 	  /* startje */
 	  --color-text:#000000;
 	  --color-background:#ffffff;
-	  max-width: 1200px;
+	  max-width: 1400px;
 
     --links_color:#000000;
     --svg_color:#000000;
@@ -28,6 +28,9 @@
     --mini_text:#939393;
     --radio_bg: #000000;
     --radio_text: #000000;
+    --radio_selected:#ffffff;
+    --counter_bg: #f0f0f0;
+    --cart_bg:#000000;
   }
   
   
@@ -208,7 +211,7 @@ footer svg{
   width: 2em;
 }
 
-@media screen and (min-width: 720px){
+@media (min-width: 720px){
   footer > ul > li > ul{
     display: flex;
   }
