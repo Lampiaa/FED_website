@@ -53,6 +53,51 @@ main > section:first-of-type ul li img{
     width: 100%;
 }
 
+/* ////////////////////////*/
+/* ///////// form /////////*/
+/* ////////////////////////*/
+
+
+form > fieldset:first-of-type {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+
+form > fieldset:first-of-type input{
+    display: none;
+}
+
+fieldset{
+    border: none;
+}
+
+form > fieldset:first-of-type label {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    width: 2.5em;                  
+    height: 2.5em;                 
+    border: 1px solid var(--border_color);
+    cursor: pointer;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+form > fieldset:first-of-type input:checked + label{
+    background-color: var(--radio_bg);
+    border: 1px solid var(--border_color);
+    color: white;
+    outline: 2px solid var(--border_color);
+    outline-offset: 2px;
+}
+
+form > fieldset:first-of-type label:hover {
+
+    outline: 1px solid var(--border_color);
+    outline-offset: 2px;
+}
+
 
 /* ////////////////////////*/
 /* /////// details ////////*/

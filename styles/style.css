@@ -26,7 +26,8 @@
     --border_color:#000000;
     --border_color_light:#a8a8a8;
     --mini_text:#939393;
-	  /* margin: auto; */
+    --radio_bg: #000000;
+    --radio_text: #000000;
   }
   
   
@@ -188,7 +189,7 @@ footer > ul > li > p{
 
 footer ul li:nth-last-child(2) p:last-child{
   color: var(--mini_text);
-  border-top: solid 1px black;
+  border-top: solid 1px var(--border_color);
   margin-top: 1em;
 }
 
@@ -213,7 +214,7 @@ footer svg{
   }
 
   footer > ul > li:not(:last-child) > ul > li:not(:first-child) a{
-    border-left: 1px solid black;
+    border-left: 1px solid var(--border_color);
   }
 
   footer > ul > li:not(:last-child) > ul > li a{
