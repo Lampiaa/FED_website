@@ -87,7 +87,7 @@ p, h1, h2, h3{
   color: var(--color-text);
 }
 
-:focus-visible{
+:focus-visible{ /* https://css-tricks.com/almanac/pseudo-selectors/f/focus-visible (focus-visible in plaats van focus gedaan)*/
   outline: 2px solid var(--focus);
   outline-offset: 2px;
 }
