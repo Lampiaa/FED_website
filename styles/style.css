@@ -15,7 +15,7 @@
 	  /* startje */
 	  --color-text:#000000;
 	  --color-background:#ffffff;
-	  max-width: 1400px;
+	  max-width: 1200px;
 
     --links_color:#000000;
     --svg_color:#000000;
@@ -42,7 +42,6 @@
   /****************/
   
   /* jouw code */
-
 *{
   font-weight: normal;
   margin: 0;
@@ -78,10 +77,10 @@ button{
   background-color: var(--color-background);
 }
 
+
 /* ////////////// */
 /* Hamburger menu */
 /* ////////////// */
-
 header button{
   appearance: none;
   aspect-ratio:1;
@@ -130,10 +129,10 @@ header button.is-open span:nth-of-type(3){
   translate: 0 0 0;
 }
 
-/* //////////////////////////////////// */
-/* //////////////////////////////////// */
 
-
+/* //////////////////////////////////// */
+/* ////////////// header ////////////// */
+/* //////////////////////////////////// */
 header{
   background-color: var(--color-background);
   position: sticky;
@@ -165,7 +164,6 @@ header nav ul li:first-child{
 /* ////////////////// */
 /*       footer       */
 /* ////////////////// */
-
 footer{
   background-color: var(--footer_bgc);
   width: 100%;
@@ -174,7 +172,6 @@ footer{
 
 footer a{
   text-decoration-thickness: 0.5px;
-
 }
 
 footer > ul{

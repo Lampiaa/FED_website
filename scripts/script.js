@@ -15,6 +15,11 @@ function toggleButton(){
 }
 // ///////////////////////////////////////////////
 
+
+////////////////////
+// teller en cart //
+////////////////////
+
 const mButton = document.getElementById("min")
 const pButton = document.getElementById("plus")
 const teller = document.getElementById("amount")
@@ -38,7 +43,7 @@ fav.addEventListener("click", () => {
   fav.classList.toggle("added")
 
   if (fav.classList.contains("added")){
-    fav.textContent = "Added to wishlist";
+    fav.textContent = "remove from wishlist";
   } 
   else{
     fav.textContent = "Add to wishlist";
