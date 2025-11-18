@@ -13,13 +13,11 @@ deButton.addEventListener("click", toggleButton)
 function toggleButton(){
   deButton.classList.toggle("is-open")
 }
-// ///////////////////////////////////////////////
 
 
 ////////////////////
 // teller en cart //
 ////////////////////
-
 const mButton = document.getElementById("min")
 const pButton = document.getElementById("plus")
 const teller = document.getElementById("amount")

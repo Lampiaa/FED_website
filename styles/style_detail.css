@@ -52,6 +52,7 @@ main > section:first-of-type ul li img{
     width: 100%;
 }
 
+
 /* ////////////////////////*/
 /* ///////// form /////////*/
 /* ////////////////////////*/ /* https://www.youtube.com/watch?v=5OrlF71bFrk */
@@ -110,7 +111,6 @@ form > section{
     gap: 1em;
     align-items: center;
 }
-
 
 /* //////////// teller knop ////////////*/
 form > section > fieldset{
@@ -196,6 +196,7 @@ summary::after {
 [open] summary{
     font-weight: bold;
 }
+
 
 /* //////////////////////////////// */
 /* ////// people also viewed ///////// */
