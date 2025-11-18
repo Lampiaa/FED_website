@@ -31,6 +31,8 @@
     --radio_selected:#ffffff;
     --counter_bg: #f0f0f0;
     --cart_bg:#000000;
+    --logo:#000000;
+    --carousel_arrow:#ffffff;
   }
   
   
@@ -51,6 +53,7 @@
 main{
   padding-left: 1rem;
   padding-right: 1rem;
+  background-color: var(--color-background);
 }
 
 a{
@@ -62,7 +65,7 @@ ul{
 }
 
 nav{
-  margin-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 header nav ul li > svg:first-child{
@@ -75,6 +78,14 @@ button{
   appearance: none;
   border: none;
   background-color: var(--color-background);
+}
+
+svg{
+  fill: var(--svg_color);
+}
+
+p, h1, h2, h3{
+  color: var(--color-text);
 }
 
 
@@ -153,6 +164,7 @@ header nav ul {
 header nav ul li:first-child{
   justify-content: flex-start;
   margin-right: auto;
+  color: var(--logo);
 }
 
 [aria-current="page"]{
@@ -227,5 +239,29 @@ footer svg{
 
   footer > ul > li:nth-child(4) > p{
     padding-bottom: 1em;
+  }
+}
+
+/* dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+	  --color-text:#ffffff;
+	  --color-background:#000000;
+    --links_color:#ffffff;
+    --svg_color:#ffffff;
+    --button_color:#000000;
+    --button_text:#000000;
+    --text_alert:rgb(241, 44, 44);
+    --footer_bgc:rgb(47, 47, 47); 
+    --border_color:#ffffff;
+    --border_color_light:#a8a8a8;
+    --mini_text:#b7b7b7;
+    --radio_bg: #ffffff;
+    --radio_text: #ffffff;
+    --radio_selected:#000000;
+    --counter_bg: #252525;
+    --cart_bg:#ffffff;
+    --logo:#ff0000;
+    --carousel_arrow:#ffffff;
   }
 }
