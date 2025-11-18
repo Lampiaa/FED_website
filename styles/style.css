@@ -33,6 +33,7 @@
     --cart_bg:#000000;
     --logo:#000000;
     --carousel_arrow:#ffffff;
+    --focus:rgb(241, 44, 44);
   }
   
   
@@ -88,6 +89,10 @@ p, h1, h2, h3{
   color: var(--color-text);
 }
 
+:focus{
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
 
 /* ////////////// */
 /* Hamburger menu */
@@ -263,5 +268,6 @@ footer svg{
     --cart_bg:#ffffff;
     --logo:#ff0000;
     --carousel_arrow:#ffffff;
+    --focus:rgb(241, 44, 44);
   }
 }
