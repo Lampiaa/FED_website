@@ -108,26 +108,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  - eerste HTML was af
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  |html sections?  | en dit             | en ik dit    | en dan ik dat    |
-  | css carousel   | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  - niet echt vragen tot nu toe
+  - juist gebruik van sections en andere elementen?
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - aria-labels en alt teksten voor images nog toevoegen
+  - verder nog niet echt punten omdat er ook nog niet veel is naast html.
 
 </details>
 
@@ -141,26 +132,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  - 1e pagina ongeveer af
+  - kortingen nog toevoegen
+  - 2e pagina beginnen
+
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  - volgorde van elementen in html
+  - hoe select ik de discounted p?
+  - mag section voor onderste links?
+  - images in grid niet op een lijn T_T
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - volgorde aanpassen fixt ook het select probleem
+  - section mag
+  - Sanne heeft het grid gefixt YAY!
 
 </details>
 
@@ -174,7 +162,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  - focus stijl veranderd voor betere zichtbaarheid
+  - alle images uitgebreidere alt teksten gegeven
+  - aria labels bij knoppen
+  - current page toegevoegd
+  - scroll knoppen toegevoegd
 
 </details>
 
@@ -188,26 +180,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  - 1e pagina zo goed als af
+  - 2e pagina alleen image carousel af tot nu toe
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  - details?
+  - add to cart stukje hoe?
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - uitleg over details gekregen, animatie een maybe maar dat moet via die powel guy op youtube
+  - form gebruiken voor die add to cart en dan met section sticky op groot scherm
 
 </details>
 
@@ -220,20 +204,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken voor eindgesprek</summary>
 
-  ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
-
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  semantisch coderen is voor mijn gevoel veel beter gegaan deze keer. grid en flexbox snap ik nu ook eindelijk grotendeels. de detailpagina ben ik eigenlijk ook best trots op ook al vind ik het uiterlijk wat minder. De form was nog best lastig en iets wat ik nog nooit eerder had gedaan. De people also viewed carousel duurde ook veel langer dan ik dacht, maar is wel goed gelukt. 
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  De eerste keren de html neerzetten voordat ik aan de css begon ging steeds compleet fout. ik snapte te weinig van hoe ik het ging opmaken met grid bijv, dus ik moest halverwege toch weer alles aanpassen steeds. screenreader besturen gaat ook dramatisch, mijn laptop weigerd mee te werken. Bijhouden van de readme was ook heel lastig dat vergat ik steeds en het op tijd inleveren is ook niet helemaal gelukt.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+
 </details>
 
 
@@ -245,12 +223,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
-
-  1. bron 1
-  2. bron 2
-  3. ...
+  - https://www.youtube.com/watch?v=gmI5nvzv170 (image carousel)
+  - https://www.youtube.com/watch?v=5OrlF71bFrk (radio button stylen)
 
 </details>
